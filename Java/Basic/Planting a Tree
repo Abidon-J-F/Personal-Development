@@ -1,4 +1,7 @@
-// Tree class in this file
+// This is a Tree software which plants different variation of trees
+  Author: Abidon
+  Date: 3/10/2021
+
 public class Tree {
 
   public static void main(String[] args) {
