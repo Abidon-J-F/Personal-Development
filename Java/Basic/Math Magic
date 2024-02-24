@@ -1,3 +1,9 @@
+  /*
+  This is a Mad Libs software which generates different stories
+  Author: Abidon Jude Fernandes
+  Date: 29/01/2022
+  */
+
 public class Magic {
 	public static void main(String[] args) {
 
