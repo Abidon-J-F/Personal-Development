@@ -6,7 +6,7 @@
 
 public class MadLibs {
 
-public static void main(String[] args){
+      public static void main(String[] args){
       
       String name1 = "John";
       String adjective1 = "relaxed";
