@@ -1,9 +1,11 @@
-public class MadLibs {
   /*
-  This is a Mad Libs software which generate stories
-  Author: Abidon
+  This is a Mad Libs software which generates different stories
+  Author: Abidon Jude Fernandes
   Date: 23/01/2022
   */
+
+public class MadLibs {
+
   	public static void main(String[] args){
       
       String name1 = "John";
