@@ -1,6 +1,7 @@
-// This is a Tree software which plants different variation of trees
-  Author: Abidon
+/* This is a Tree software which plants different variations of trees
+  Author: Abidon Jude Fernandes
   Date: 3/10/2021
+*/
 
 public class Tree {
 
