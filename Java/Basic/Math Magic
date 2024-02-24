@@ -1,5 +1,5 @@
   /*
-  This is a Mad Libs software which generates different stories
+  This here is an Math Magic software which outputs the number three no matter what number you insert into the variable.
   Author: Abidon Jude Fernandes
   Date: 29/01/2022
   */
@@ -11,7 +11,8 @@ public class Magic {
     This here is the original number.
     It should not contain a 0 
     */
-		int myNumber = 5;
+
+int myNumber = 5;
 
     int stepOne = myNumber * myNumber;
     int stepTwo = stepOne + myNumber;
