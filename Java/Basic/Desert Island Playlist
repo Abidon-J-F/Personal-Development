@@ -1,3 +1,9 @@
+ /*
+  This is a Desert Island Playlist program.
+  Author: Abidon Jude Fernandes
+  Date: 11/03/2022
+  */
+
 import java.util.ArrayList;
 
 class Playlist {
