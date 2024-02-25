@@ -1,7 +1,7 @@
   /*
   This here is an Math Magic program which outputs the number three no matter what number you insert into the variable.
   Author: Abidon Jude Fernandes
-  Date: 29/01/2022
+  Date: 31/01/2022
   */
 
 public class Magic {
