@@ -1,2 +1,2 @@
 # Personal-Development
-Software projects I have done in my free time
+Software projects I have completed during my free time.
