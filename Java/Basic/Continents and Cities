@@ -1,7 +1,7 @@
  /*
   This is a Continents and Cities program. This program prints out a continent and the largest city in that continent, based on the value of an integer.
   Author: Abidon Jude Fernandes
-  Date: /03/2022
+  Date: 06/03/2022
   */
 
 public class Continents {
