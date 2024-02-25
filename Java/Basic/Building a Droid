@@ -1,3 +1,9 @@
+  /*
+  This is a Droid software designed to create new droids, assign new droid names, perform the required tasks, display its battery percentages and transfer energy to other droids when needed.
+  Author: Abidon Jude Fernandes
+  Date: 12/02/2022
+  */
+
 public class Droid {
   
   int batteryLevel;
