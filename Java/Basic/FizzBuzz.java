@@ -1,3 +1,9 @@
+ /*
+  This is a FizzBuzz program.
+  Author: Abidon Jude Fernandes
+  Date: 17/03/2022
+  */
+
 class FizzBuzz {
 
     public static void main(String[] args) {
