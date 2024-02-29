@@ -1,5 +1,5 @@
  /*
-  This SinoTibetan Class is part of the Language Families program.
+  This Sino-Tibetan Class is part of the Language Families program.
   Author: Abidon Jude Fernandes
   Date: 03/07/2022
   */
