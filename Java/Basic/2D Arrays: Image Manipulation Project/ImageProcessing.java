@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.Random;
 import javax.imageio.ImageIO;
 
-public class Solution {
+public class ImageProcessing {
 	public static void main(String[] args) {
 
     // Use a local image file stored on your storage device
