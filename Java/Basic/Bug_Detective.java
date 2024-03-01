@@ -1,3 +1,9 @@
+ /*
+  This is a Fortune program which had its errors cleaned during a bug detective mode.
+  Author: Abidon Jude Fernandes
+  Date: 09/07/2022
+  */
+
 import java.lang.Math;
 
 class Fortune {
