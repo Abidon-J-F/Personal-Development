@@ -15,7 +15,7 @@ import javax.imageio.ImageIO;
 public class Solution {
 	public static void main(String[] args) {
 
-    // Use a local image file store on your storage device
+    // Use a local image file stored on your storage device
 		int[][] imageData = imgToTwoD("./apple.jpg");
 		
     // Or load an image by a URL link
