@@ -15,10 +15,10 @@ import javax.imageio.ImageIO;
 public class Solution {
 	public static void main(String[] args) {
 
-    // The provided images are apple.jpg, flower.jpg and kitten.jpg
+    // Use a local image file store on your storage device
 		int[][] imageData = imgToTwoD("./apple.jpg");
 		
-    // Or load your own image using a URL!
+    // Or load an image by a URL link
 		//int[][] imageData = imgToTwoD("https://content.codecademy.com/projects/project_thumbnails/phaser/bug-dodger.png");
 
 		//viewImageData(imageData);
