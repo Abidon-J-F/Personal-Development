@@ -15,11 +15,12 @@ CREATE TABLE friends (
 INSERT INTO friends (id, name, birthday) 
 VALUES (1, 'Ororo Munroe', '1940-05-30');
 
---Viewing the table in the Query Results:
+--Populate the Query Results table:
 SELECT * 
 FROM friends;
 
 
+--Inserting new friends:
 INSERT INTO friends (id, name, birthday) 
 VALUES (2, 'BFF One', 'YYYY-MM-DD');
 
@@ -30,6 +31,7 @@ SELECT *
 FROM friends;
 
 
+--Updating new friends name:
 UPDATE friends
 SET name = 'Storm'
 WHERE id = 1;
@@ -38,6 +40,7 @@ SELECT *
 FROM friends;
 
 
+--Inserting a new email table:
 ALTER TABLE friends 
 ADD COLUMN email TEXT; 
 
@@ -49,12 +52,13 @@ SELECT *
 FROM friends;
 
 
+--Deleting a friend:
 DELETE FROM friends
 WHERE id = 1;
 
 SELECT * 
 FROM friends;
 
-
+--Final view of the Query Results table:
 SELECT * 
 FROM friends;
