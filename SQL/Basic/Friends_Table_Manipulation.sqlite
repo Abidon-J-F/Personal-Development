@@ -1,18 +1,21 @@
 /*
-This is a Table Manipulation program.
+This is a Friends Table Manipulation program.
 Author: Abidon Jude Fernandes
 Date: 25/06/2023
 */
 
+--Table Creation:
 CREATE TABLE friends (
    id INTEGER,
    name TEXT,
    birthday DATE
 );
 
+--Inserting values:
 INSERT INTO friends (id, name, birthday) 
 VALUES (1, 'Ororo Munroe', '1940-05-30');
 
+--Viewing the table in the Query Results:
 SELECT * 
 FROM friends;
 
