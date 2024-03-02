@@ -59,6 +59,7 @@ WHERE id = 1;
 SELECT * 
 FROM friends;
 
+
 --Final view of the Query Results table:
 SELECT * 
 FROM friends;
