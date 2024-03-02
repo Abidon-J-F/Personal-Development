@@ -1,4 +1,7 @@
-/*dd
+/*
+This is a Table Manipulation program.
+Author: Abidon Jude Fernandes
+Date: 25/06/2023
 */
 
 CREATE TABLE friends (
