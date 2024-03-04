@@ -1,5 +1,5 @@
   /*
-  This is a Mad Libs program which generates different stories
+  This is a Mad Libs program. It generates different stories.
   Author: Abidon Jude Fernandes
   Date: 23/01/2022
   */
