@@ -1,5 +1,5 @@
   /*
-  This is a Droid program designed to create new droids.
+  This is a Droid program. It is designed to create new droids.
   Author: Abidon Jude Fernandes
   Date: 22/02/2022
   */
