@@ -1,5 +1,5 @@
   /*
-  This is a Advanced Math Magic program which outputs the number three no matter what number you insert into the variable.
+  This is an Advanced Math Magic program. This program outputs the integer value three no matter what integer value you insert into the variable.
   Author: Abidon Jude Fernandes
   Date: 06/02/2022
   */
