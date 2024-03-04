@@ -1,5 +1,5 @@
  /*
-  This is a Fortune program which had its errors cleaned during a bug detective mode.
+  This is a Fortune program. All of its errors are cleaned.
   Author: Abidon Jude Fernandes
   Date: 09/07/2022
   */
