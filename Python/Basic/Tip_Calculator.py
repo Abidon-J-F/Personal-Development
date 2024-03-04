@@ -1,5 +1,5 @@
 """
-This is a Tip Calculator program made in Python2.
+This is a Tip Calculator program. It was created in Python2.
 Author: Abidon Jude Fernandes
 Date: 02/02/2024
 """
