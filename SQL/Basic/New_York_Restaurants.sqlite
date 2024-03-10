@@ -8,46 +8,54 @@ Date: 09/07/2023
 SELECT *
 FROM nomnom;
 
+-- Finding out the names of the neighbourhoods in this nomnom table:
 SELECT DISTINCT neighborhood
 FROM nomnom;
 
+-- Finding out the different types of cuisine in this nomnom table:
 SELECT DISTINCT cuisine
 FROM nomnom;
 
+-- Finding out how many restaurants serve Chinese takeouts in this nomnom table:
 SELECT *
 FROM nomnom
 WHERE cuisine = 'Chinese';
 
+-- Finding out how many restaurants have a 4 and above rating in this nomnom table:
 SELECT *
 FROM nomnom
 WHERE review >= 4;
 
+-- Finding out how many restaurants serve Italian food and the price must be $$$ in this nomnom table:
 SELECT *
 FROM nomnom
 WHERE cuisine = 'Italian'
     AND price == '$$$';
 
+-- Finding out which restaurant has the word meatball in its title in this nomnom table:
 SELECT *
 FROM nomnom
 WHERE name LIKE '%meatball%';
 
-
+-- Finding out which restaurant is the closest for a home delivery in this nomnom table:
 SELECT *
 FROM nomnom
 WHERE neighborhood = 'Midtown'
    OR neighborhood = 'Downtown'
    OR neighborhood = 'Chinatown'; 
 
+-- Finding out which restaurant's health grades are still pending in this nomnom table:
 SELECT *
 FROM nomnom
 WHERE health IS NULL;
 
+-- Creating a Top 10 Restaurants Ranking sub-table based on the reviews in this nomnom table:
 SELECT *
 FROM nomnom
 ORDER BY review DESC
 LIMIT 10;
 
-
+-- Created in this nomnom table:
 SELECT name,
  CASE
   WHEN review > 4.5 THEN 'Extraordinary'
