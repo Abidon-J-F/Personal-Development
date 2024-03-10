@@ -49,13 +49,13 @@ SELECT *
 FROM nomnom
 WHERE health IS NULL;
 
--- Creating a Top 10 Restaurants Ranking sub-table based on the reviews in this nomnom table:
+-- Creating a Top 10 Restaurants Ranking sub-table based on the reviews acquired from the nomnom table:
 SELECT *
 FROM nomnom
 ORDER BY review DESC
 LIMIT 10;
 
--- Created in this nomnom table:
+-- Creating a separate table which lists the best to worst restaurants using TEXT instead of DOUBLE values in the review column acquired from the nomnom table:
 SELECT name,
  CASE
   WHEN review > 4.5 THEN 'Extraordinary'
