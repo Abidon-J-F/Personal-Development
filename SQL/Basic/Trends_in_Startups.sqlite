@@ -4,9 +4,12 @@ Author: Abidon Jude Fernandes
 Date: 09/07/2023
 */
 
+
+-- Finding out the column names in this nomnom table:
 SELECT *
 FROM startups;
 
+-- Finding out the column names in this nomnom table:
 SELECT COUNT(*)
 FROM startups;
 
