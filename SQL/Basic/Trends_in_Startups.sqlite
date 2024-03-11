@@ -9,10 +9,11 @@ Date: 19/07/2023
 SELECT *
 FROM startups;
 
--- Finding out how many columns are there in this startups table:
+-- Finding out how many companies are there in this startups table:
 SELECT COUNT(*)
 FROM startups;
 
+-- Finding out the total value of all companies in this startups table:
 SELECT SUM(valuation)
 FROM startups;
 
