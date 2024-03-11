@@ -1,15 +1,15 @@
 /*
-This is a New York Restaurants program.
+This is a Trends in Startups program.
 Author: Abidon Jude Fernandes
-Date: 09/07/2023
+Date: 19/07/2023
 */
 
 
--- Finding out the column names in this nomnom table:
+-- Finding out how many columns are there in this startups table:
 SELECT *
 FROM startups;
 
--- Finding out the column names in this nomnom table:
+-- Finding out how many columns are there in this startups table:
 SELECT COUNT(*)
 FROM startups;
 
