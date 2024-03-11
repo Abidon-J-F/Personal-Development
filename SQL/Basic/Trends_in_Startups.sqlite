@@ -1,3 +1,9 @@
+/*
+This is a New York Restaurants program.
+Author: Abidon Jude Fernandes
+Date: 09/07/2023
+*/
+
 SELECT *
 FROM startups;
 
