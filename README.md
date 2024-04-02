@@ -1,2 +1,2 @@
 # Personal Development
-Software projects I have completed in my free time.
+This repository contains all the software projects I have completed in my free time.
