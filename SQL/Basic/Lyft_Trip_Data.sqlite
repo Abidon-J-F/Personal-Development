@@ -4,3 +4,47 @@ Author: Abidon Jude Fernandes
 Date: 19/08/2023
 */
 
+-- Finding out the columns names and the primary keys of trips, riders and cars
+--Answer: id is the primary keys of all three of these columns names
+SELECT * FROM trips;
+
+SELECT * FROM riders;
+
+SELECT * FROM cars;
+
+
+--Trying out simple cross join between riders and cars
+--Answer: Not useful
+SELECT riders.first,
+   riders.last,
+   cars.model
+FROM riders, cars;
+
+
+SELECT *
+FROM trips
+LEFT JOIN riders 
+  ON trips.rider_id = riders.id;
+
+SELECT trips.date, 
+   trips.pickup, 
+   trips.dropoff, 
+   trips.type, 
+   trips.cost,
+   riders.first, 
+   riders.last,
+   riders.username
+FROM trips
+LEFT JOIN riders 
+  ON trips.rider_id = riders.id;
+
+SELECT *
+FROM trips
+JOIN cars
+  ON trips.car_id = cars.id;
+
+SELECT *
+FROM riders
+UNION
+SELECT *
+FROM riders2;
