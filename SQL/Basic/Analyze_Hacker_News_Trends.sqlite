@@ -42,6 +42,8 @@ WHERE url LIKE '%watch?v=dQw4w9WgXcQ%'
 GROUP BY 1
 ORDER BY 2 DESC;
 
+--Finding out which of these sites feed Hacker News the most:
+--GitHub, Medium, or New York Times?
 SELECT CASE
    WHEN url LIKE '%github.com%' THEN 'GitHub'
    WHEN url LIKE '%medium.com%' THEN 'Medium'
@@ -50,6 +52,9 @@ SELECT CASE
   END AS 'Source'
 FROM hacker_news;
 
+--Finding out which of these sites feed Hacker News the most:
+--GitHub, Medium, or New York Times?
+--Adding a column for the number of stories from each URL using COUNT()
 SELECT CASE
    WHEN url LIKE '%github.com%' THEN 'GitHub'
    WHEN url LIKE '%medium.com%' THEN 'Medium'
@@ -60,17 +65,20 @@ SELECT CASE
 FROM hacker_news
 GROUP BY 1;
 
+--Finding out the best time of the day to post a story on Hacker News?
 SELECT timestamp
 FROM hacker_news
 LIMIT 10;
 
+--Finding out the best time of the day to post a story on Hacker News?
+--Including hours, minutes, seconds and year, month and day.
 SELECT timestamp,
    strftime('%H', timestamp)
 FROM hacker_news
 GROUP BY 1
 LIMIT 20;
 
-
+--Returning the hours of the timestamp, the average score for each hour and the count of stories for each hour
 SELECT strftime('%H', timestamp), 
    AVG(score),
    COUNT(*)
@@ -78,7 +86,7 @@ FROM hacker_news
 GROUP BY 1
 ORDER BY 2 DESC;
 
-
+--Finding out the best hours to post a story on Hacker News
 SELECT strftime('%H', timestamp) AS 'Hour', 
    ROUND(AVG(score), 1) AS 'Average Score', 
    COUNT(*) AS 'Number of Stories'
