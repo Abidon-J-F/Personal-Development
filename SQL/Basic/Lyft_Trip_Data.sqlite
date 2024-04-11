@@ -20,12 +20,13 @@ SELECT riders.first,
    cars.model
 FROM riders, cars;
 
-
+--Creating a Trip Log with the trips and its users
 SELECT *
 FROM trips
 LEFT JOIN riders 
   ON trips.rider_id = riders.id;
 
+----Creating a Trip Log with the trips and its users with  certain columns only
 SELECT trips.date, 
    trips.pickup, 
    trips.dropoff, 
@@ -38,11 +39,13 @@ FROM trips
 LEFT JOIN riders 
   ON trips.rider_id = riders.id;
 
+--Creating a link between the trips and the cars used during those trips
 SELECT *
 FROM trips
 JOIN cars
   ON trips.car_id = cars.id;
 
+--Stacking the riders table on top of the new table named riders2
 SELECT *
 FROM riders
 UNION
