@@ -10,21 +10,22 @@ FROM hacker_news
 ORDER BY score DESC
 LIMIT 5;
 
--Finding the totral score of all the stories
+--Finding the totral score of all the stories
 SELECT SUM(score)
 FROM hacker_news;
 
--Finding the individual users who have gotten combined scores of more than 200, and their combined scores
+--Finding the individual users who have gotten combined scores of more than 200, and their combined scores
 SELECT user, SUM(score)
 FROM hacker_news
 GROUP BY user
 HAVING SUM(score) > 200
 ORDER BY 2 DESC;
 
--Adding users' scores together and dividing by the total get the percentage
+--Adding users' scores together and dividing by the total get the percentage
 SELECT (517 + 309 + 304 + 282) / 6366.0;
 
--
+--Find out how many times has each offending user posted the rickrolling (https://www.youtube.com/watch?v=dQw4w9WgXcQ) link?
+--Using GROUP BY for the users and WHERE to restrict url
 SELECT user,
    COUNT(*)
 FROM hacker_news
@@ -32,6 +33,8 @@ WHERE url LIKE '%watch?v=dQw4w9WgXcQ%'
 GROUP BY user
 ORDER BY COUNT(*) DESC;
 
+--Find out how many times has each offending user posted the rickrolling (https://www.youtube.com/watch?v=dQw4w9WgXcQ) link?
+--Rewritten using column reference numbers instead of column names
 SELECT user,
    COUNT(*)
 FROM hacker_news
