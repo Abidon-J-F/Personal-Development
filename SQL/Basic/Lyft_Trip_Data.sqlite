@@ -51,3 +51,36 @@ FROM riders
 UNION
 SELECT *
 FROM riders2;
+
+--Finding out the average cost for a trip
+SELECT AVG(cost)
+FROM trips;
+
+--Finding out the average cost for a trip using the ROUND() function at 2 decimal places
+SELECT ROUND(AVG(cost), 2)
+FROM trips;
+
+--Finding out all the riders who have used Lyft less than 500 times
+SELECT *
+FROM riders
+WHERE total_trips < 500;
+
+--Finding out all the riders and riders2 who have used Lyft less than 500 times
+SELECT *
+FROM riders
+WHERE total_trips < 500
+UNION
+SELECT *
+FROM riders2
+WHERE total_trips < 500;
+
+--Calculating the number of cars that are active
+SELECT COUNT(*)
+FROM cars
+WHERE status = 'active';
+
+--Writing a query that finds the two cars that have the highest trips completed
+SELECT *
+FROM cars
+ORDER BY trips_completed DESC
+LIMIT 2;
