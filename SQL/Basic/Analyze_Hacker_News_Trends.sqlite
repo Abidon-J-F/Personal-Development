@@ -4,6 +4,7 @@ Author: Abidon Jude Fernandes
 Date: 31/07/2023
 */
 
+--
 SELECT title, score
 FROM hacker_news
 ORDER BY score DESC
