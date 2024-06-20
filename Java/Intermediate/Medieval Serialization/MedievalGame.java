@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class MedievalGame {
