@@ -1,5 +1,5 @@
 /*
-This is 1 of 2 main parts of the Medieval Serialization program.
+This is 1 of 2 Main Class of the Medieval Serialization program.
 Author: Abidon Jude Fernandes
 Date: 09/2023-10/2023
 */
