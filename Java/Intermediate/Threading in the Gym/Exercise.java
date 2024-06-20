@@ -2,11 +2,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
+// Represents a single exercise in the gym
 public class Exercise {
     private final MachineType machine; // Stores the type of machine used in the exercise
     private final Map<Weight, Integer> weight; // Stores how many weights this exercise uses
     private final int duration; // Stores how long the exercise lasts
 
+    // Creates a random exercise
     public Exercise() {
         this.machine = MachineType.getRandomEquipment();
         Map<Weight, Integer> weightSet = new HashMap<>();
