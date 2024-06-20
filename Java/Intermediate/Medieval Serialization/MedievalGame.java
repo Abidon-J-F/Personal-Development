@@ -1,3 +1,9 @@
+/*
+This is a Medieval Serialization program.
+Author: Abidon Jude Fernandes
+Date: 09/2023-10/2023
+*/
+
 import java.io.*;
 import java.util.Objects;
 import java.util.Scanner;
