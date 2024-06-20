@@ -1,3 +1,9 @@
+/*
+This is part of the Threading in the Gym program.
+Author: Abidon Jude Fernandes
+Date: 02/2024-03/2024
+*/
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
