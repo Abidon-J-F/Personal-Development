@@ -1,3 +1,9 @@
+/*
+This is part of the Medieval Serialization program.
+Author: Abidon Jude Fernandes
+Date: 09/2023-10/2023
+*/
+
 public class Art {
     public static void homeScreen(){
         System.out.println("\n\n");
