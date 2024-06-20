@@ -1,3 +1,9 @@
+/*
+This is the Main class of Let's Get Takeout! program.
+Author: Abidon Jude Fernandes
+Date: 11/2023-12/2023
+*/
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
