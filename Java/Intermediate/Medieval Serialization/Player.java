@@ -1,3 +1,9 @@
+/*
+This is 2 of 2 main parts of the Medieval Serialization program.
+Author: Abidon Jude Fernandes
+Date: 09/2023-10/2023
+*/
+
 import java.io.*;
 import java.util.Scanner;
 import java.io.Serializable;
