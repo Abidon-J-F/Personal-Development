@@ -20,7 +20,7 @@ public class Aliens extends Entity {
 	
 	@Override
 	public String toString() {
-		return super.toString() + "\nAlien Planet Base: " + getAliensPlanet();
+		return super.toString() + "\nAliens Planet Base: " + getAliensPlanet();
 	}
 		
 }
