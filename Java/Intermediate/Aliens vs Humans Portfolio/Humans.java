@@ -20,6 +20,6 @@ public class Humans extends Entity {
 	
 	@Override
 	public String toString() {
-		return super.toString() + "\nHuman Planet Base: " + getHumansPlanet();
+		return super.toString() + "\nHumans Planet Base: " + getHumansPlanet();
 	}
 }
