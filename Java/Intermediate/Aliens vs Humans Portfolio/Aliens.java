@@ -1,3 +1,9 @@
+/*
+This is an Aliens vs Humans Portfolio program.
+Author: Abidon Jude Fernandes
+Date: 04/2024 – 06/2024
+*/
+
 package aliens_vs_humans_portfolio;
 
 public class Aliens extends Entity {
